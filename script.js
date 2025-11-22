@@ -3,7 +3,13 @@ const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
 
 const decimalToBinary = (input) => {
-  return "01110110";
+  const inputs = [];
+  const quotients = [];
+  const remainders = [];
+
+  input = 0;
+
+  
 };
 
 const checkUserInput = () => {
